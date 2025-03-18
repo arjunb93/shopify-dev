@@ -15,9 +15,14 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "designer_bhjCUh": {
+      "type": "designer",
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "designer_bhjCUh"
   ]
 }
