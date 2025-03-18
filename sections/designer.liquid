@@ -41,6 +41,8 @@ h2{
     }
   }
 </style>
+
+{% for designer in shop.metaobjects.designer.values %}
 <div class="designer-container">
   <div class="img">
       <img src="{{designer.picture |img_url:'500x' }}" alt="Designer">
@@ -51,6 +53,8 @@ h2{
       <a href="{{ designer.collection_link }}" class="button button--primary">See all their products</a>
   </div>
 </div>
+{% endfor %}
+
 {% schema %}
   {
     "name": "Designers",
